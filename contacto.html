@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Contrataciones | Kendo Kaponi</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kendo Kaponi: Contacto Oficial y Contrataciones</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <p>Completa el formulario para contrataciones, colaboraciones musicales o mensajes de los fanáticos.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    
+                    <p>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre_usuario" placeholder="Ej. Carlos Mendoza" required>
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo_usuario" placeholder="ejemplo@correo.com" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Motivo del Contacto</legend>
+                    
+                    <p>
+                        <label for="motivo">Selecciona la razón de tu mensaje:</label><br>
+                        <select id="motivo" name="motivo_contacto">
+                            <option value="contratacion">Contratación para eventos</option>
+                            <option value="colaboracion">Propuesta de colaboración / Feat</option>
+                            <option value="fan">Mensaje de apoyo / Fanático</option>
+                            <option value="prensa">Entrevistas o medios</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label>¿Cuál es tu canción o tiraera favorita de Kendo?</label><br>
+                        <input type="radio" name="cancion_fav" id="cancion1" value="concierto_vacio">
+                        <label for="cancion1">Concierto Vacío</label><br>
+
+                        <input type="radio" name="cancion_fav" id="cancion2" value="la_40">
+                        <label for="cancion2">La 40</label><br>
+
+                        <input type="radio" name="cancion_fav" id="cancion3" value="amenaza_lirical">
+                        <label for="cancion3">Amenaza Lirical</label><br>
+
+                        <input type="radio" name="cancion_fav" id="cancion4" value="otra">
+                        <label for="cancion4">Otra canción / Colaboración</label>
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje o propuesta detallada:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="6" cols="40" placeholder="Escribe aquí tu propuesta o mensaje..."></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar Mensaje</button>
+                    <button type="reset">Borrar Campos</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Redes sociales</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/kendokaponi" target="_blank">Instagram Oficial</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=kendo+kaponi" target="_blank">Canal de YouTube</a></li>
+            <li><a href="https://open.spotify.com/intl-es/artist/1WMwuNKzEFtU6pPkdtryYS" target="_blank">Perfil en Spotify</a></li>
+        </ul>
+        <p>&copy; 2026. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
