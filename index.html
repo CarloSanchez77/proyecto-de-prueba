@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página tributo y portafolio de Kendo Kaponi">
     <title>Kendo Kaponi | El Dios del Rap</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Kendo Kaponi: El lapiz más duro del género urbano</h1>
+    <header id="inicio">
+        <h1>Kendo Kaponi: El lápiz más duro del género urbano</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -20,15 +21,82 @@
                 <li><a href="habilidades.html">Habilidades</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#multimedia">Música</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>           
             </ul>
         </nav>
     </header>
-    
+
     <main>
+        >
         <section>
             <h2>Bienvenido al portal oficial</h2>
             <p>Explora la vida, la música y el impacto cultural de uno de los artistas más influyentes de la escena urbana. Navega por el menú superior para conocer más sobre sus proyectos.</p>
         </section>
+>
+        <section class="seccion-tarjeta">
+    <h2>Secciones Destacadas</h2>
+         <div class="rejilla-cajas">
+                 <a href="biografia.html" class="caja caja1">Biografía</a>
+                 <a href="experiencia.html" class="caja caja2">Experiencia</a>
+                 <a href="habilidades.html" class="caja caja3">Habilidades</a>
+                 <a href="portafolio.html" class="caja caja4">Portafolio</a>
+             </div>
+          </section>
+
+        <section id="multimedia">
+            <h2>Muestra Musical Destacada</h2>
+            <p>Escucha uno de los temas más representativos del artista:</p>
+            <audio controls>
+                <source src="audio/tema muestra.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            
+            <div class="contenedor-video">
+                <video controls width="100%" poster="imagenes/kendo-cover.jpg">
+                    <source src="videos/video muestra.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios y Reseñas de la Industria</h2>
+            <ul>
+                <li>
+                    <blockquote>
+                        "Kendo tiene una pluma inigualable; su capacidad para estructurar historias en rimas cambió la forma de escribir en el género urbano."
+                    </blockquote>
+                    <p><strong>— Productor Musical / Colaborador</strong></p>
+                </li>
+                <li>
+                    <blockquote>
+                        "La complejidad lírica y la entrega emocional de sus canciones son únicas en el rap en español."
+                    </blockquote>
+                    <p><strong>— Crítica de Música Urbana</strong></p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Lugar de Origen </h2>
+            <p>San Juan, Puerto Rico — Cuna del movimiento musical:</p>
+            <div class="mapa-responsive">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121220.07689972332!2d-66.12644265636009!3d18.406383212879595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c03686f0595eb4b%3A0xb355152843efc432!2sSan%20Juan%2C%20Puerto%20Rico!5e0!3m2!1ses!2sco!4v1700000000000!5m2!1ses!2sco" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <div class="volver-arriba">
+            <a href="#inicio">⬆ Volver al inicio de la página</a>
+        </div>
     </main>
 
     <footer>
@@ -41,6 +109,5 @@
         <p>&copy; 2026. Todos los derechos reservados.</p>
     </footer>
 
-</body>
-
+ </body>
 </html>
